@@ -8,7 +8,7 @@ URL = f"http://newsline.kg/getNews.php?limit=5&{last_dt}"
 
 def collect_data():
     response = requests.get(url=URL)
-    with open('news.json', 'w') as file:
+    with open('news.json', 'w', encoding='utf-8') as file:
         json.dump(response.json()["data"], file, indent=4, ensure_ascii=False)
 
 
