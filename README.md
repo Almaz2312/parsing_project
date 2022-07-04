@@ -16,7 +16,8 @@ git clone https://github.com/Almaz2312/zeon_parse.git <br />
 pip install -r requirements.txt <br />
 Или можно установить в ручную -
 requests через pip install requests
-
+#### branch
+Просьба пушить в branch to_testing
 
 ### Требования
 ● необходимо использовать Python 3.8+ <br />
