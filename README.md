@@ -17,7 +17,7 @@ pip install -r requirements.txt <br />
 Или можно установить в ручную -
 requests через pip install requests
 #### branch
-Просьба пушить в branch to_testing
+Рабочая ветка репозитория в **branch to_testing**
 
 ### Требования
 ● необходимо использовать Python 3.8+ <br />
